@@ -1,0 +1,10 @@
+========================================
+AI Interviewer Models Evaluation
+========================================
+Embedding Vocab Size: 529
+
+[NN2] Topic Classifier Accuracy (All Data): 84.67%
+[NN3] Question Ranker BCE Accuracy (All Data): 55.56%
+[NN4] Answer Scorer MSE (All Data): 0.0019
+[NN4] Answer Scorer Margin Accuracy (+/- 0.2): 100.00%
+========================================

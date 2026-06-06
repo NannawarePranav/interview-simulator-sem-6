@@ -1,0 +1,8 @@
+numpy
+torch
+rich
+pymupdf
+flask
+werkzeug
+opencv-python
+mediapipe==0.10.5

@@ -1,0 +1,62 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Virtual Environments ─────────────────────────────────────────────────────
+venv/
+env/
+.venv/
+.env/
+
+# ── IDE / Editor ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Model Weights & Large Binaries ───────────────────────────────────────────
+# (These are too large for GitHub — document how to regenerate/download them)
+models/saved/*.pt
+models/saved/*.npy
+models/saved/vocab.json
+models/saved/gpt2_finetuned/
+embeddings/*.txt
+cv-procter/yolov8n.pt
+data-set-full/
+
+# ── User-Specific Data ───────────────────────────────────────────────────────
+data/raw/*.pdf
+data/raw/resume.txt
+data/raw/skills.txt
+data/sessions.db
+temp_resume.txt
+output.txt
+
+# ── Violation Screenshots (runtime-generated) ────────────────────────────────
+frontend/violations/*.jpg
+cv-procter/violations/*.jpg
+
+# ── Session Reports (runtime-generated) ──────────────────────────────────────
+reports/session_*.txt
+
+# ── Environment Variables ────────────────────────────────────────────────────
+.env
+.env.local
+*.env
+
+# ── Jupyter Notebooks ────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── OS Files ─────────────────────────────────────────────────────────────────
+*.log
+*.tmp

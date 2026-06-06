@@ -1,0 +1,151 @@
+snippet_text,topic_label
+What is lambda function in Python? Anonymous function defined with lambda keyword.,python
+What are functions in Python? Functions are blocks of reusable code defined using def keyword.,python
+"What is the difference between bytes, bytearray, and memoryview? bytes are immutable sequences of bytes, bytearray is mutable, memoryview provides a view into binary",python
+"What is Python's with statement? Used for resource management, ensures proper closing (e.g., with files).",python
+What is enumerate() in Python? Returns index and value while iterating over a sequence.,python
+"What are Python lists? Ordered, mutable collections of elements.",python
+What is method overriding in Python? Providing a new implementation of a parent class method in a child class.,python
+"How do you create thread-safe code in Python? By using locks, semaphores, queues, or atomic operations from threading module.",python
+"What is the difference between generator and iterator in Python? Generators are a type of iterator created with yield, while iterators can be built with classes.",python
+"What is the difference between syntax error and runtime error? Syntax error occurs before execution, runtime error occurs during execution.",python
+"What is the difference between staticmethod, classmethod, and instancemethod? @staticmethod doesn’t take self or cls; @classmethod takes cls; instance methods take self.",python
+"What is the difference between == and is in Python? == checks value equality, is checks identity (whether two variables point to the same object).",python
+What is len() function in Python? Returns the length of a sequence or collection.,python
+"How do you declare a variable in Python? Just assign a value: x = 10, y = ""Hello"".",python
+What are default arguments in functions? Arguments that assume a default value if not provided during function call.,python
+What is encapsulation in Python? Encapsulation means restricting direct access to variables and methods to protect data.,python
+"How do you optimize Python code for performance? Techniques: use built-in functions, list comprehensions, generators, NumPy for numerical operations,",python
+"What are Python comprehensions? Compact syntax for creating lists, sets, and dictionaries.",python
+What are destructors in Python? Destructors (__del__) are called when an object is deleted or goes out of scope.,python
+"What is the difference between synchronous and asynchronous code execution? Synchronous waits for tasks sequentially; asynchronous allows overlapping tasks, improving efficienc",python
+What is string concatenation in Python? Joining strings using + operator or join() method.,python
+What is the difference between yield and return in Python? yield pauses a function and returns a generator; return ends the function and returns a value.,python
+"What is __name__ == ""__main__"" in Python? It ensures that code runs only when the script is executed directly, not when imported.",python
+"Explain how Python handles function overloading. Python doesn’t support traditional overloading; instead, default arguments or *args/**kwargs are use",python
+Explain Python’s async/await syntax. async defines a coroutine; await pauses execution until an awaitable (coroutine/future/task) is comp,python
+"What is the difference between a tree and a binary search tree? In BST nodes are ordered, while in a general tree there is no strict ordering.",data_structures_algorithms
+"In a singly linked list, what does each node contain? Data and a pointer to the next node.",data_structures_algorithms
+How do you perform topological sorting in a DAG? By using Kahn’s algorithm (BFS) or DFS finishing times.,data_structures_algorithms
+What is level order traversal? Visiting nodes of a tree level by level using a queue.,data_structures_algorithms
+What is the maximum number of nodes at level k in a binary tree? 2k.,data_structures_algorithms
+"What is the difference between a tree and a graph? A tree is a hierarchical structure without cycles, while a graph can have cycles and multiple connec",data_structures_algorithms
+What is double hashing? A collision resolution method using a second hash function to calculate probe sequence.,data_structures_algorithms
+How do you find the number of islands in a grid? By using DFS or BFS traversal marking visited cells.,data_structures_algorithms
+"What is a binary heap and why is it efficient? It is a complete binary tree used for priority queues, offering O(log n) insert and delete.",data_structures_algorithms
+"What is the time complexity to search a word in a trie? O(L), where L is the length of the word.",data_structures_algorithms
+"How do you implement a trie to store a large dictionary of words? Each node represents characters with children pointers, storing isEnd flag for complete words.",data_structures_algorithms
+How is a queue different from a stack? Queue uses FIFO while stack uses LIFO.,data_structures_algorithms
+What is the best-case time complexity for searching in a BST? O(log n).,data_structures_algorithms
+Define a stack in one line. Stack is a linear structure where elements are pushed and popped from one end.,data_structures_algorithms
+What is the head in a linked list? The first node of the linked list.,data_structures_algorithms
+What is a deque? A double-ended queue where insertion and deletion are possible from both ends.,data_structures_algorithms
+"What is the algorithm to reverse nodes in k-group in a linked list? Reverse k nodes iteratively, then connect recursively for remaining nodes.",data_structures_algorithms
+How do you build a heap from an array? By applying heapify bottom-up in O(n) time.,data_structures_algorithms
+How do you implement two stacks in one array? Divide the array into two parts or let them grow from opposite ends.,data_structures_algorithms
+How do you find the longest palindromic substring? By expanding around centers or using dynamic programming.,data_structures_algorithms
+What problem occurs in hash tables when two keys map to the same index? Collision.,data_structures_algorithms
+How do you find bridges in a graph? By DFS with discovery and low values to identify critical edges.,data_structures_algorithms
+What does dynamic array mean? An array that can resize automatically when full.,data_structures_algorithms
+How do you implement Kruskal’s algorithm for MST? By sorting edges and applying union-find to avoid cycles.,data_structures_algorithms
+How do you implement Rabin-Karp algorithm? By hashing substrings with rolling hash for efficient string search.,data_structures_algorithms
+When would you increase input resolution and when would you decrease it? Increase for small/far objects; decrease for speed/memory limits.,machine_learning_basics
+What is reward hacking? Agent exploits loophole in rewards.  ,machine_learning_basics
+What happens if you shuffle time series for CatBoost? Leakage and bad generalization.,machine_learning_basics
+What are embedding dimensions? Number of features in word vector representation,machine_learning_basics
+"How is Exclusive Feature Bundling implemented internally? Groups sparse, mutually exclusive features into one bin.",machine_learning_basics
+What attribute gives the shape of an array? A.shape,machine_learning_basics
+How do you sign typed data (EIP-712) in Web3.js? web3.eth.signTypedData() (depends on version).,machine_learning_basics
+What is broadcasting (one sentence)? Rules that let arrays of different shapes participate in arithmetic by implicit expansion of size-1 ,machine_learning_basics
+What is a pipeline in Scikit-learn? A sequential workflow of preprocessing and modeling.,machine_learning_basics
+"How do you create training examples for NER in v3? Create Example.from_dict(doc, {""entities"":[(start,end,label)]}) objects.",machine_learning_basics
+What is intrinsic evaluation? Evaluate embeddings alone.  ,machine_learning_basics
+What is the benefit of BN? Stabilizes and speeds up training.,machine_learning_basics
+How do you handle categorical features? StringIndexer + OneHotEncoder for categoricals.,machine_learning_basics
+How does YOLOv7 achieve efficiency gains? Improved model scaling and reparam conv,machine_learning_basics
+What is quantization in Keras? Lower precision for deployment.  ,machine_learning_basics
+How do you test Flink jobs? Unit/integration tests with MiniCluster or TestHarness.,machine_learning_basics
+"What’s the difference between accuracy and loss? Loss quantifies error, accuracy measures correctness; you can have low loss but not perfect accuracy",machine_learning_basics
+What is gap statistic? Gap between WCSS and null reference.  ,machine_learning_basics
+What is OOV problem in embeddings? Unknown word handling.  ,machine_learning_basics
+"Why does PoS provide faster finality than PoW? Validators vote on finality directly, not just chain length.",machine_learning_basics
+What is TF-IDF? Weights words by importance.  ,machine_learning_basics
+What is custom op in TensorFlow? Custom C++/CUDA operations.  ,machine_learning_basics
+What is stemming? PorterStemmer or LancasterStemmer.,machine_learning_basics
+"Devise a hyperparameter search that mixes Bayesian/global + local fine-tuning (within sklearn APIs). Combine HalvingGridSearchCV for coarse search, then local Grid around the incumbent’s neighborhood; ",machine_learning_basics
+How to lock down file system access in hosted Jupyter? Run as unprivileged users; filesystem whitelists; container sandbox.,machine_learning_basics
+What is a Db2 instance (LUW)? A runtime environment containing configuration and services that manage one or more databases.,databases_sql
+"How do you secure per-user documents in Security Rules? Match on request.auth.uid and resource data (e.g., allow if resource.data.ownerId == request.auth.ui",databases_sql
+"What is information_schema? System metadata about databases, tables, columns, constraints, and more.",databases_sql
+"Is Snowflake a SaaS, PaaS, or IaaS? It is a SaaS (Software as a Service) platform.",databases_sql
+"How do you diagnose and remediate widespread read-timeout storms in Cassandra? Check replica latencies, compaction backlog, GC pauses, cache hit rates, and network; use tracing an",databases_sql
+"Which stats commands help you diagnose evictions and hit ratio issues? stats evictions, stats, stats items/slabs, hit/miss ratios, and evictions per slab.",databases_sql
+What are LBAC (Label-Based Access Control) use cases for advanced security? Classify data with labels (secrecy/integrity) and enforce access via policies mapped to users/roles.,databases_sql
+"What causes 'Spool space exceeded' errors? Skewed joins, lack of stats, excessive redistributions, big intermediate result sets.",databases_sql
+Explain VARIANT vs OBJECT vs ARRAY. VARIANT stores any JSON-like value; OBJECT = key-value map; ARRAY = list of values.,databases_sql
+"Does Snowflake support JSON? Yes, via VARIANT data type.",databases_sql
+How do you create a combo box? Add control in form design and set Row Source to a table/query; bind to a foreign key field.,databases_sql
+"Explain the difference between stream and task. Stream tracks data changes; task executes logic, often using stream.",databases_sql
+"How do you design and tune fact tables for time-series workloads in Teradata? PPI by time bucket, columnar compression, AJI for common aggregates, and co-location with dimension ",databases_sql
+What is a counter table? A table containing counter columns that support increment/decrement semantics; requires special rule,databases_sql
+How do you do complex authorization (RBAC/ABAC) in rules at scale? Encode roles/attributes in custom claims or doc fields and reference them in rules with granular che,databases_sql
+"How would you implement rate limits and quotas per tenant inside the DB? Track writes per tenant, enforce with triggers/policies or connection pool quotas; log and reject ov",databases_sql
+"How would you diagnose and fix slow queries in production MongoDB clusters? Use profiler, slow query logs, explain with executionStats, index stats (collStats/indexStats), and ",databases_sql
+"How do you avoid hotspots when writing many docs quickly? Distribute keys (e.g., random prefixes, time buckets) so writes spread across index shards.",databases_sql
+"How would you design aggregate refresh processes using an Aggregate Join Index (AJI)? Pick stable groupings, ensure base changes are manageable, and monitor AJI maintenance overhead vs q",databases_sql
+What are table properties in Hive? Set parameters to describe table behavior.,databases_sql
+"How do you move a PDB between servers? Unplug/plug PDB with XML manifest and datafiles, or use RMAN/transportable tech.",databases_sql
+What is $merge? Aggregation stage to write pipeline results to a collection (insert/update/replace conditions).,databases_sql
+What is a maintenance plan vs custom scripts? Maintenance plans are GUI‑driven tasks; custom scripts offer finer control and are common in product,databases_sql
+"How do you handle GDPR/CCPA data deletion requests across Firebase services? Centralize deletion workflows, propagate to Firestore/Storage/Auth/Analytics exports, and verify wit",databases_sql
+How do you keep secrets and API keys safe in Firebase projects? Store secrets in environment configs/Secret Manager; never ship them in client apps or public repos.,databases_sql
+"What is the difference between logical and physical addresses? Logical is generated by CPU (virtual), physical is the actual location in memory.",system_design
+What is “RetrievalQAWithSourcesChain”? Returns both answers and document sources,system_design
+What is the “RetrievalQA” chain? Combines document retrieval with question answering,system_design
+"How does paging differ from segmentation? Paging divides memory into fixed-size blocks, segmentation divides into logical variable-sized units",system_design
+"What is multi-behavior modeling? Use different interaction types (views, clicks, buys) jointly for training",system_design
+How does retrieval latency affect generation? Delays overall response time,system_design
+What is a system call? A way for a program to request services from the OS kernel.,system_design
+How can attention help session-based recommenders? By focusing on important past items in session,system_design
+What is a process? A program in execution with its own memory space and resources.,system_design
+Why is elevator algorithm used in disk scheduling? To minimize seek time by servicing requests in a sorted sequence.,system_design
+"What is the difference between multitasking and multiprogramming? Multitasking gives time-sharing among tasks, multiprogramming keeps multiple jobs in memory.",system_design
+What is TLB (Translation Lookaside Buffer)? A cache of recent page table entries to accelerate address translation.,system_design
+What is MAP in recommender evaluation? Mean Average Precision across queries/users,system_design
+What is aging (in scheduling)? Increasing priority of waiting processes over time to prevent starvation.,system_design
+"How do you handle cold start for new users? Use profile info, onboarding questions, or popularity",system_design
+What is meta-learning for cold-start recommendations? Learn quick adaptation to new users/items from few samples,system_design
+How does the OS handle memory-mapped files? By mapping file contents directly into virtual address space of processes.,system_design
+"How to debug production recommendation errors? Trace logs, replay offline, and inspect feature distributions",system_design
+What are kernel modules? Code that can be loaded or unloaded into kernel at runtime to extend functionality without reboot.,system_design
+What is negative sampling? Selecting non-interacted items as implicit negatives,system_design
+"Name some CPU scheduling algorithms. FCFS, SJF, Round Robin, Priority Scheduling.",system_design
+How to incorporate graph neural networks in recommenders? Model user-item interactions and relations with GNNs,system_design
+What is similarity in recommendations? Measure of closeness between users or items,system_design
+What does OS stand for? OS stands for Operating System.,system_design
+How does the OS ensure atomicity in signal handling? By blocking signals or using masks during critical sections.,system_design
+Mock question about behavioral 4? Mock answer 4,behavioral
+Mock question about behavioral 4? Mock answer 4,behavioral
+Mock question about behavioral 6? Mock answer 6,behavioral
+Mock question about behavioral 6? Mock answer 6,behavioral
+Mock question about behavioral 3? Mock answer 3,behavioral
+Mock question about behavioral 4? Mock answer 4,behavioral
+Mock question about behavioral 5? Mock answer 5,behavioral
+Mock question about behavioral 1? Mock answer 1,behavioral
+Mock question about behavioral 1? Mock answer 1,behavioral
+Mock question about behavioral 1? Mock answer 1,behavioral
+Mock question about behavioral 5? Mock answer 5,behavioral
+Mock question about behavioral 5? Mock answer 5,behavioral
+Mock question about behavioral 6? Mock answer 6,behavioral
+Mock question about behavioral 2? Mock answer 2,behavioral
+Mock question about behavioral 6? Mock answer 6,behavioral
+Mock question about behavioral 5? Mock answer 5,behavioral
+Mock question about behavioral 2? Mock answer 2,behavioral
+Mock question about behavioral 3? Mock answer 3,behavioral
+Mock question about behavioral 2? Mock answer 2,behavioral
+Mock question about behavioral 4? Mock answer 4,behavioral
+Mock question about behavioral 4? Mock answer 4,behavioral
+Mock question about behavioral 3? Mock answer 3,behavioral
+Mock question about behavioral 1? Mock answer 1,behavioral
+Mock question about behavioral 6? Mock answer 6,behavioral
+Mock question about behavioral 3? Mock answer 3,behavioral

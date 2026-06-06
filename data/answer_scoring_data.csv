@@ -1,0 +1,61 @@
+question,answer,score
+How to compute top-k efficiently on huge arrays?,"Use np.argpartition(a, -k)[-k:] then partial sort; avoids full O(n log n) sort.",1.0
+How to compute top-k efficiently on huge arrays?,"Use np.argpartition(a, -k)[-k:] then pa and I think that's it.",0.5
+How to compute top-k efficiently on huge arrays?,I am not really sure but maybe it relates to computer science.,0.0
+Compare TFRecords vs Parquet/CSV for training at scale; when is each preferable?,"TFRecords store binary, sequential access, best for TF; Parquet/CSV easier for analysis.",1.0
+Compare TFRecords vs Parquet/CSV for training at scale; when is each preferable?,"TFRecords store binary, sequential access, b and I think that's it.",0.5
+Compare TFRecords vs Parquet/CSV for training at scale; when is each preferable?,I am not really sure but maybe it relates to computer science.,0.0
+Explain role of changelog compaction.,Kafka compacts changelog to latest values only.,1.0
+Explain role of changelog compaction.,Kafka compacts changelo and I think that's it.,0.5
+Explain role of changelog compaction.,I am not really sure but maybe it relates to computer science.,0.0
+What is context switch?,Saving state of one process/thread and loading the state of another to switch execution.,1.0
+What is context switch?,Saving state of one process/thread and loadi and I think that's it.,0.5
+What is context switch?,I am not really sure but maybe it relates to computer science.,0.0
+What is pretrained embedding usage?,"Load GloVe, Word2Vec.  ",1.0
+What is pretrained embedding usage?,"Load GloVe, and I think that's it.",0.5
+What is pretrained embedding usage?,I am not really sure but maybe it relates to computer science.,0.0
+When would you denormalize vs normalize metadata for performance?,"Denormalize frequently joined, low-cardinality attributes into the hypertable; normalize high-cardinality or rarely used metadata.",1.0
+When would you denormalize vs normalize metadata for performance?,"Denormalize frequently joined, low-cardinality attributes into th and I think that's it.",0.5
+When would you denormalize vs normalize metadata for performance?,I am not really sure but maybe it relates to computer science.,0.0
+How to debug pipeline errors effectively?,Check fit/transform consistency using pipeline steps.,1.0
+How to debug pipeline errors effectively?,Check fit/transform consis and I think that's it.,0.5
+How to debug pipeline errors effectively?,I am not really sure but maybe it relates to computer science.,0.0
+How to handle date criteria correctly?,"Use #date# literals (US format) or DateSerial(), avoid ambiguous strings; consider regional settings.",1.0
+How to handle date criteria correctly?,"Use #date# literals (US format) or DateSerial(), a and I think that's it.",0.5
+How to handle date criteria correctly?,I am not really sure but maybe it relates to computer science.,0.0
+What is the smallest unit of Bitcoin?,Satoshi.,1.0
+What is the smallest unit of Bitcoin?,Sato and I think that's it.,0.5
+What is the smallest unit of Bitcoin?,I am not really sure but maybe it relates to computer science.,0.0
+What is a rowid table?,"By default, tables have a hidden ROWID; INTEGER PRIMARY KEY makes the column an alias of ROWID.",1.0
+What is a rowid table?,"By default, tables have a hidden ROWID; INTEGER and I think that's it.",0.5
+What is a rowid table?,I am not really sure but maybe it relates to computer science.,0.0
+"Draft a DR plan using snapshots, replication, and regular restore drills.",Regular snapshots + tested replication; store manifests off-cluster; schedule restore drills to verify RPO/RTO.,1.0
+"Draft a DR plan using snapshots, replication, and regular restore drills.",Regular snapshots + tested replication; store manifests and I think that's it.,0.5
+"Draft a DR plan using snapshots, replication, and regular restore drills.",I am not really sure but maybe it relates to computer science.,0.0
+What is multitasking vs multiprocessing?,Multitasking: multiple tasks/processes by time sharing; multiprocessing: multiple CPUs/cores.,1.0
+What is multitasking vs multiprocessing?,Multitasking: multiple tasks/processes by time and I think that's it.,0.5
+What is multitasking vs multiprocessing?,I am not really sure but maybe it relates to computer science.,0.0
+What are subcompactions and their benefit?,Splits a compaction job into parallel pieces to better use CPU/IO on large inputs.,1.0
+What are subcompactions and their benefit?,Splits a compaction job into parallel pie and I think that's it.,0.5
+What are subcompactions and their benefit?,I am not really sure but maybe it relates to computer science.,0.0
+When would you use continuous replication?,For long‑running sync between clusters/devices to keep data up‑to‑date; resilient to interruptions.,1.0
+When would you use continuous replication?,For long‑running sync between clusters/devices to and I think that's it.,0.5
+When would you use continuous replication?,I am not really sure but maybe it relates to computer science.,0.0
+How do you profile generation latency and throughput?,"Time end-to-end: preproc, forward, decode; batch; profile CUDA kernels.",1.0
+How do you profile generation latency and throughput?,"Time end-to-end: preproc, forward,  and I think that's it.",0.5
+How do you profile generation latency and throughput?,I am not really sure but maybe it relates to computer science.,0.0
+Explain how chunk exclusion works during query planning.,"Planner uses chunk time bounds (and space constraints) to skip non-overlapping chunks, reducing reads.",1.0
+Explain how chunk exclusion works during query planning.,Planner uses chunk time bounds (and space constrain and I think that's it.,0.5
+Explain how chunk exclusion works during query planning.,I am not really sure but maybe it relates to computer science.,0.0
+How does Scikit-learn ensure reproducibility?,By setting random_state and deterministic operations.,1.0
+How does Scikit-learn ensure reproducibility?,By setting random_state an and I think that's it.,0.5
+How does Scikit-learn ensure reproducibility?,I am not really sure but maybe it relates to computer science.,0.0
+What is Performance Monitoring?,"Measures app performance like startup, rendering, and network latency.",1.0
+What is Performance Monitoring?,Measures app performance like start and I think that's it.,0.5
+What is Performance Monitoring?,I am not really sure but maybe it relates to computer science.,0.0
+What is a trigger?,Code that automatically runs in response to DML/DDL/LOGON events.,1.0
+What is a trigger?,Code that automatically runs in  and I think that's it.,0.5
+What is a trigger?,I am not really sure but maybe it relates to computer science.,0.0
+How do you get layer names in a model?,[ly.name for ly in model.layers],1.0
+How do you get layer names in a model?,[ly.name for ly  and I think that's it.,0.5
+How do you get layer names in a model?,I am not really sure but maybe it relates to computer science.,0.0

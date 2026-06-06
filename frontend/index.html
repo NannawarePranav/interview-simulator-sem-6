@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Mock Interviewer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="blob-bg blob-1"></div>
+    <div class="blob-bg blob-2"></div>
+
+    <div class="app-container">
+        <!-- 1. UPLOAD SCREEN -->
+        <section id="upload-screen" class="view active">
+            <div class="card glass">
+                <div class="icon-wrapper">
+                    <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+                </div>
+                <h1>Start Your AI Interview</h1>
+                <p>Upload your resume and any extra skills to let our ML models construct a tailored interview for you.</p>
+                
+                <form id="upload-form">
+                    <div class="input-group">
+                        <label for="resume-upload" class="file-label">
+                            <span id="file-name">Select PDF Resume</span>
+                            <input type="file" id="resume-upload" accept="application/pdf" required>
+                        </label>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Select Additional Skills (Optional)</label>
+                        <div class="skills-selector-container" id="skills-selector-container">
+                            <div class="skill-badge-option" data-skill="React">React</div>
+                            <div class="skill-badge-option" data-skill="Node.js">Node.js</div>
+                            <div class="skill-badge-option" data-skill="Python">Python</div>
+                            <div class="skill-badge-option" data-skill="Machine Learning">Machine Learning</div>
+                            <div class="skill-badge-option" data-skill="Databases & SQL">Databases & SQL</div>
+                            <div class="skill-badge-option" data-skill="System Design">System Design</div>
+                            <div class="skill-badge-option" data-skill="Docker">Docker</div>
+                            <div class="skill-badge-option" data-skill="Django">Django</div>
+                            <div class="skill-badge-option" data-skill="TensorFlow">TensorFlow</div>
+                            <div class="skill-badge-option" data-skill="Cloud Computing">Cloud Computing</div>
+                        </div>
+                        <input type="hidden" id="extra-skills" value="">
+                    </div>
+
+                    <button type="submit" class="btn primary" id="start-btn">Start Interview</button>
+                    <div class="loader hidden" id="upload-loader"></div>
+                </form>
+            </div>
+        </section>
+
+        <!-- 2. INTERVIEW SCREEN -->
+        <section id="interview-screen" class="view hidden">
+
+            <!-- Proctor sidebar -->
+            <aside id="proctor-panel" class="proctor-panel glass">
+                <div class="proctor-header">
+                    <span id="proctor-dot" class="proctor-dot"></span>
+                    <span id="proctor-label">Camera Off</span>
+                </div>
+                <!-- Live Server-side AI Annotated Stream -->
+                <img id="proctor-video-stream" src="" alt="Live AI Proctor Feed" class="proctor-stream-img">
+                <div class="proctor-stats">
+                    <span>Violations: <strong id="violation-count">0</strong></span>
+                    <span id="gaze-status" class="gaze-ok">👁 On Screen</span>
+                </div>
+                <!-- Violation warning banner -->
+                <div id="violation-banner" class="violation-banner hidden">
+                    ⚠️ Please look at the screen!
+                </div>
+            </aside>
+
+            <div class="interview-body">
+                <header class="glass bar">
+                    <div class="progress-info">
+                        <h3>Topics Covered</h3>
+                        <div id="topics-timeline" class="timeline"></div>
+                    </div>
+                    <div class="timer">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                        <span id="time-left">90s</span>
+                    </div>
+                </header>
+
+                <main class="chat-area">
+                    <div class="message ai-message glass">
+                        <div class="avatar ai-avatar">AI</div>
+                        <div class="bubble">
+                            <p class="topic-tag" id="current-topic-tag">Loading...</p>
+                            <p id="question-text">Initializing your interview environment...</p>
+                        </div>
+                    </div>
+                    <div id="feedback-display"></div>
+                </main>
+
+                <footer class="input-area glass">
+                    <textarea id="answer-box" placeholder="Type your answer here..." disabled></textarea>
+                    <div class="actions">
+                        <button id="skip-btn" class="btn outline" disabled>Skip</button>
+                        <button id="submit-btn" class="btn primary" disabled>Submit</button>
+                        <button id="quit-btn" class="btn danger outline">End Interview</button>
+                    </div>
+                </footer>
+            </div>
+        </section>
+
+        <!-- 3. REPORT SCREEN -->
+        <section id="report-screen" class="view hidden">
+            <div class="card glass large-card">
+                <h2>Interview Report</h2>
+                <div class="report-content">
+                    <div id="report-text" class="report-html-content"></div>
+                </div>
+                <div class="sessions-section">
+                    <h3>Past Sessions</h3>
+                    <table class="sessions-table">
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Candidate</th>
+                                <th>Level</th>
+                                <th>Score</th>
+                            </tr>
+                        </thead>
+                        <tbody id="sessions-table-body"></tbody>
+                    </table>
+                </div>
+                <button onclick="location.reload()" class="btn primary mt-2">Start Another Interview</button>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

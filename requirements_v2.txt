@@ -1,0 +1,14 @@
+numpy
+torch
+flask
+werkzeug
+opencv-python
+mediapipe==0.10.5
+protobuf==3.20.3
+pymupdf
+rich
+transformers
+datasets
+streamlit
+pdfplumber
+accelerate

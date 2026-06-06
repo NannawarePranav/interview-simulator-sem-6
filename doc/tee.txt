@@ -1,0 +1,20 @@
+Folder PATH listing for volume New Volume
+Volume serial number is 903D-795C
+E:\MINI PROJECT 1\AI_INTERVIEWER\V1
++---.agent
+¦   +---rules
+¦   +---workflows
++---data
+¦   +---raw
+¦   +---__pycache__
++---doc
++---frontend
++---interview
+¦   +---__pycache__
++---models
+¦   +---saved
+¦   +---__pycache__
++---reports
++---train
+¦   +---__pycache__
++---__pycache__

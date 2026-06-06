@@ -1,0 +1,466 @@
+{
+  "questions": [
+    {
+      "id": "python_973",
+      "topic": "python",
+      "difficulty": "medium",
+      "question": "What is lambda function in Python?",
+      "keywords": [
+        "python",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "python_918",
+      "topic": "python",
+      "difficulty": "easy",
+      "question": "What are functions in Python?",
+      "keywords": [
+        "python",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "python_1018",
+      "topic": "python",
+      "difficulty": "hard",
+      "question": "What is the difference between bytes, bytearray, and memoryview?",
+      "keywords": [
+        "python",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "python_978",
+      "topic": "python",
+      "difficulty": "medium",
+      "question": "What is Python's with statement?",
+      "keywords": [
+        "python",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "python_976",
+      "topic": "python",
+      "difficulty": "medium",
+      "question": "What is enumerate() in Python?",
+      "keywords": [
+        "python",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "python_931",
+      "topic": "python",
+      "difficulty": "easy",
+      "question": "What are Python lists?",
+      "keywords": [
+        "python",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "python_964",
+      "topic": "python",
+      "difficulty": "medium",
+      "question": "What is method overriding in Python?",
+      "keywords": [
+        "python",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "data_structures_algorithms_223",
+      "topic": "data_structures_algorithms",
+      "difficulty": "medium",
+      "question": "What is the difference between a tree and a binary search tree?",
+      "keywords": [
+        "data_structures_algorithms",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "data_structures_algorithms_168",
+      "topic": "data_structures_algorithms",
+      "difficulty": "easy",
+      "question": "In a singly linked list, what does each node contain?",
+      "keywords": [
+        "data_structures_algorithms",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "data_structures_algorithms_268",
+      "topic": "data_structures_algorithms",
+      "difficulty": "hard",
+      "question": "How do you perform topological sorting in a DAG?",
+      "keywords": [
+        "data_structures_algorithms",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "data_structures_algorithms_228",
+      "topic": "data_structures_algorithms",
+      "difficulty": "medium",
+      "question": "What is level order traversal?",
+      "keywords": [
+        "data_structures_algorithms",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "data_structures_algorithms_226",
+      "topic": "data_structures_algorithms",
+      "difficulty": "medium",
+      "question": "What is the maximum number of nodes at level k in a binary tree?",
+      "keywords": [
+        "data_structures_algorithms",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "data_structures_algorithms_181",
+      "topic": "data_structures_algorithms",
+      "difficulty": "easy",
+      "question": "What is the difference between a tree and a graph?",
+      "keywords": [
+        "data_structures_algorithms",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "data_structures_algorithms_214",
+      "topic": "data_structures_algorithms",
+      "difficulty": "medium",
+      "question": "What is double hashing?",
+      "keywords": [
+        "data_structures_algorithms",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "machine_learning_basics_20172",
+      "topic": "machine_learning_basics",
+      "difficulty": "medium",
+      "question": "When would you increase input resolution and when would you decrease it?",
+      "keywords": [
+        "machine_learning_basics",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "machine_learning_basics_25731",
+      "topic": "machine_learning_basics",
+      "difficulty": "hard",
+      "question": "What is reward hacking?",
+      "keywords": [
+        "machine_learning_basics",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "machine_learning_basics_19442",
+      "topic": "machine_learning_basics",
+      "difficulty": "hard",
+      "question": "What happens if you shuffle time series for CatBoost?",
+      "keywords": [
+        "machine_learning_basics",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "machine_learning_basics_28583",
+      "topic": "machine_learning_basics",
+      "difficulty": "hard",
+      "question": "What are embedding dimensions?",
+      "keywords": [
+        "machine_learning_basics",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "machine_learning_basics_19245",
+      "topic": "machine_learning_basics",
+      "difficulty": "hard",
+      "question": "How is Exclusive Feature Bundling implemented internally?",
+      "keywords": [
+        "machine_learning_basics",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "machine_learning_basics_18322",
+      "topic": "machine_learning_basics",
+      "difficulty": "easy",
+      "question": "What attribute gives the shape of an array?",
+      "keywords": [
+        "machine_learning_basics",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "machine_learning_basics_25297",
+      "topic": "machine_learning_basics",
+      "difficulty": "hard",
+      "question": "How do you sign typed data (EIP-712) in Web3.js?",
+      "keywords": [
+        "machine_learning_basics",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "databases_sql_15788",
+      "topic": "databases_sql",
+      "difficulty": "easy",
+      "question": "What is a Db2 instance (LUW)?",
+      "keywords": [
+        "databases_sql",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "databases_sql_16449",
+      "topic": "databases_sql",
+      "difficulty": "medium",
+      "question": "How do you secure per-user documents in Security Rules?",
+      "keywords": [
+        "databases_sql",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "databases_sql_15538",
+      "topic": "databases_sql",
+      "difficulty": "easy",
+      "question": "What is information_schema?",
+      "keywords": [
+        "databases_sql",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "databases_sql_17220",
+      "topic": "databases_sql",
+      "difficulty": "easy",
+      "question": "Is Snowflake a SaaS, PaaS, or IaaS?",
+      "keywords": [
+        "databases_sql",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "databases_sql_15398",
+      "topic": "databases_sql",
+      "difficulty": "hard",
+      "question": "How do you diagnose and remediate widespread read-timeout storms in Cassandra?",
+      "keywords": [
+        "databases_sql",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "databases_sql_16724",
+      "topic": "databases_sql",
+      "difficulty": "medium",
+      "question": "Which stats commands help you diagnose evictions and hit ratio issues?",
+      "keywords": [
+        "databases_sql",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "databases_sql_15858",
+      "topic": "databases_sql",
+      "difficulty": "hard",
+      "question": "What are LBAC (Label-Based Access Control) use cases for advanced security?",
+      "keywords": [
+        "databases_sql",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "system_design_378",
+      "topic": "system_design",
+      "difficulty": "medium",
+      "question": "What is the difference between logical and physical addresses?",
+      "keywords": [
+        "system_design",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "system_design_28625",
+      "topic": "system_design",
+      "difficulty": "medium",
+      "question": "What is \u201cRetrievalQAWithSourcesChain\u201d?",
+      "keywords": [
+        "system_design",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "system_design_28598",
+      "topic": "system_design",
+      "difficulty": "easy",
+      "question": "What is the \u201cRetrievalQA\u201d chain?",
+      "keywords": [
+        "system_design",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "system_design_355",
+      "topic": "system_design",
+      "difficulty": "medium",
+      "question": "How does paging differ from segmentation?",
+      "keywords": [
+        "system_design",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "system_design_28991",
+      "topic": "system_design",
+      "difficulty": "hard",
+      "question": "What is multi-behavior modeling?",
+      "keywords": [
+        "system_design",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "system_design_28631",
+      "topic": "system_design",
+      "difficulty": "hard",
+      "question": "How does retrieval latency affect generation?",
+      "keywords": [
+        "system_design",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "system_design_342",
+      "topic": "system_design",
+      "difficulty": "easy",
+      "question": "What is a system call?",
+      "keywords": [
+        "system_design",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "behavioral_27",
+      "topic": "behavioral",
+      "difficulty": "easy",
+      "question": "Mock question about behavioral 4?",
+      "keywords": [
+        "behavioral",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "behavioral_15",
+      "topic": "behavioral",
+      "difficulty": "easy",
+      "question": "Mock question about behavioral 4?",
+      "keywords": [
+        "behavioral",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "behavioral_23",
+      "topic": "behavioral",
+      "difficulty": "hard",
+      "question": "Mock question about behavioral 6?",
+      "keywords": [
+        "behavioral",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "behavioral_17",
+      "topic": "behavioral",
+      "difficulty": "hard",
+      "question": "Mock question about behavioral 6?",
+      "keywords": [
+        "behavioral",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "behavioral_8",
+      "topic": "behavioral",
+      "difficulty": "hard",
+      "question": "Mock question about behavioral 3?",
+      "keywords": [
+        "behavioral",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "behavioral_9",
+      "topic": "behavioral",
+      "difficulty": "easy",
+      "question": "Mock question about behavioral 4?",
+      "keywords": [
+        "behavioral",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    },
+    {
+      "id": "behavioral_28",
+      "topic": "behavioral",
+      "difficulty": "medium",
+      "question": "Mock question about behavioral 5?",
+      "keywords": [
+        "behavioral",
+        "interview"
+      ],
+      "follow_up": "Can you elaborate on that?"
+    }
+  ]
+}
